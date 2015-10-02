@@ -1,0 +1,107 @@
+@-moz-viewport { width:device-width; scale: 1;}
+@-ms-viewport { width:device-width; scale: 1;}
+@-o-viewport { width:device-width; scale: 1;}
+@-webkit-viewport { width:device-width; scale: 1;}
+@viewport { width:device-width; scale: 1;}
+
+html{
+	box-sizing: border-box;
+	-moz-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	-webtext-text-size-adjust:100%;
+	text-size-adjust:100%;
+	font-family:normal 100%/'Antic', sans-serif;
+	background-size: 150px auto;
+	background-color: white;
+	color: Black;
+}
+
+*, *::before, *::after{ 
+	box-sizing: inherit;
+}
+
+img{
+	width: 25%;
+}
+h1{
+	margin: 0;
+	color: Black;
+	font-family:'Antic';
+	font-weight: bold;
+	font-size: 1.375em;
+	text-align: center;
+	bottom: 5%;
+	position: relative;
+	padding: 0;
+}
+
+p{
+	font-family:'Antic';
+	margin:0;
+	display: block;
+}
+.nav{
+	margin: 0;
+	list-style-type:none;
+	text-align: center; 
+	padding:0;
+
+}
+.nav ol{
+    overflow:hidden;
+	margin: 0;
+	text-align:center;
+	font-size:1em;
+}
+.nav li{
+	display:inline-block;
+	float: left;
+	font-size: 50%;
+
+}
+.nav a{
+	color: black;
+	display: block;
+	padding:0.75em 1em 0.75em 1em;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.nav a:hover{
+	background-color: gray;
+	color: white;
+}
+
+
+@media only screen and (min-width: 25em){
+
+.banner{
+	float:right;
+}
+h1{
+	color: Black;
+	font-size: 1rem,
+	margin: 0;
+	font-family:'Antic';
+	font-weight: bold;
+	text-align: center;
+	bottom: 5%;
+	position: relative;
+	padding: 0;
+}
+}
+@media only screen and (min-width: 50em){
+	
+	h1{
+	color: Red;
+	font-size: 2rem;
+}
+}
+@media only screen and (min-width: 65em){
+	
+	h1{
+	color: green;
+	font-size: 3rem;
+}
+}
