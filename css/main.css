@@ -105,28 +105,32 @@ p{
 }
 @media only screen and (min-width: 50em){
 	
-	h1{
+h1{
 	color: green;
 	font-size: 5rem;
 }
 }
 @media only screen and (min-width: 65em){
 	
-	h1{
+h1{
 	color: blue;
 	font-size: 6rem;
+	position: absolute;
+	width:70%;
+	top: 5em;
+	
+	right: 2em;
 }
 p{
-	float: right;
-	position: relative;
+	position: absolute;
 	width:70%;
-	top: 10em;
+	top: 6em;
 }
 
 .nav ol li{
-	float: right;
-	position: relative;
+	position: absolute;
 	width: 70%;
+	top:7em;
 }
 
 }
