@@ -40,26 +40,33 @@ p{
 	margin:0;
 	display: block;
 }
-.nav{
+footer {
+
+float:left;
+display:block;
+}
+
+
+/*.nav{
 	margin: 0;
 	list-style-type:none;
 	text-align: center; 
 	padding:0;
 
 }
-.nav ol{
+. ol{
     overflow:hidden;
 	margin: 0;
 	text-align:center;
 	font-size:1em;
 }
-.nav li{
+. li{
 	display:inline-block;
 	float: left;
 	font-size: 50%;
 
 }
-.nav a{
+. a{
 	color: black;
 	display: block;
 	padding:0.75em 1em 0.75em 1em;
@@ -72,7 +79,7 @@ p{
 	background-color: gray;
 	color: white;
 }
-
+*/
 
 @media only screen and (min-width: 25em){
 
@@ -87,7 +94,7 @@ h1{
 	font-weight: bold;
 	text-align: center;
 	float: right;
-	top: 7.5em;
+	top: 5em;
 	position: relative;
 	padding: 0;
 }
@@ -97,7 +104,7 @@ p{
 	width:70%;
 	top: 10em;
 }
-.nav ol li{
+.footer{
 	float: right;
 	position: relative;
 	width: 70%;
@@ -112,25 +119,27 @@ h1{
 }
 @media only screen and (min-width: 65em){
 	
-h1{
+.title{
 	color: blue;
-	font-size: 6rem;
+	font-size: 6.60rem;
 	position: absolute;
 	width:70%;
-	top: 5em;
-	
-	right: 2em;
+	top: 3.5em;
+	right: 0;
 }
 p{
+	
 	position: absolute;
 	width:70%;
-	top: 6em;
+	top: 30em;
+	right: 0em; 
+
 }
 
-.nav ol li{
+.footer{
 	position: absolute;
 	width: 70%;
-	top:7em;
+	top:30em;
 }
 
 }
