@@ -27,10 +27,10 @@ h1{
 	color: black;
 	font-family:'Antic';
 	font-weight: bold;
-	font-size: 2rem;
+	font-size: 3rem;
 	text-align: left;
 	bottom: 5%;
-	padding-top: 2rem;
+	padding-top: 3rem;
 	
 }
 .photonaz {
@@ -48,16 +48,19 @@ p{
 
 a{
 	display: block;
+
 }
 
 a img{
 	margin: 1em;
+
 }
 
 footer{
 	display: block;
 	width: 30%;
 	margin: 0 auto;
+
 }
 
 @media only screen and (min-width: 25em){
@@ -119,9 +122,6 @@ footer img{
 
 	}
 
-	
-
-}
 
 footer{
 	position: absolute;
