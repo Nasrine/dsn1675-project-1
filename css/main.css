@@ -52,11 +52,11 @@ a{
 }
 
 a img{
-	margin: 1em;
+	margin: 0.5em;
 
 }
 
-footer{
+footer a{
 	display: block;
 	width: 30%;
 	margin: 0 auto;
@@ -83,12 +83,13 @@ footer{
 	}
 	footer{
 		width: 70%;
-		float: left;
+		float: right;
 	}
 	footer a{
 	display: inline-block;
 	width:20%;
-}
+	left: 55rem;
+	}
 }
 
 
@@ -99,9 +100,9 @@ h1{
 	font-size: 5rem;
 }
 
+footer a{
 
-
-footer img{
+}
 		
 	}
 }
@@ -109,24 +110,22 @@ footer img{
 	
 	h1{
 		color: blue;
-		font-size: 6.60rem;
-		position: absolute;
+		font-size: 5rem;
 		width:70%;
 		top: 3.5em;
 		right: 0;
 	}
 	p{
-		
-		width: 25%;
+		position: absolute;
 		float: left;
-
+	
 	}
 
 
-footer{
-	position: absolute;
-	width: 70%;
-	top:30em;
+footer a{
+	
+	display: inline-block;
+	top: 20em;
 }
 
 }
