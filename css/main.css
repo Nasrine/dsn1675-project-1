@@ -10,7 +10,7 @@ html{
 	-ms-text-size-adjust:100%;
 	-webtext-text-size-adjust:100%;
 	
-	font-family:normal/'Antic', sans-serif;
+	font-family:'antic';
 	background-size: 150px auto;
 	background-color: white;
 	color: Black;
@@ -22,7 +22,7 @@ html{
 
 .title{
 	color: red;
-	font-family:'italiana';
+	font-family: 'Italiana', serif;
 	font-weight: bold;
 	text-align: left;
 	font-size: 2.80em;
@@ -89,7 +89,7 @@ footer a{
 
 	.contact {
 		position: absolute;
-		right: 6em;
+		left: 11em;
 		padding-top: 1em;
 	}
 }
@@ -113,12 +113,11 @@ p{
 }
 
 .contact {
-		right: 12em;
+		left: 11em;
 		padding-top: 1em;
 	}
-		
-	
 }
+
 @media only screen and (min-width: 64em){
 	
 	h1{
