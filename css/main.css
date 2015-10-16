@@ -44,6 +44,8 @@ p{
 
 }
 
+
+
 a{
 	display: block;
 
@@ -78,13 +80,17 @@ footer a{
 		display: inline;
 		padding-top: 5rem;
 	}
-	footer{
-		width: 70%;
-		float: right;
-	}
+	
+
 	footer a{
 	display: inline-block;
 
+	}
+
+	.contact {
+		position: absolute;
+		right: 6em;
+		padding-top: 1em;
 	}
 }
 
@@ -100,14 +106,16 @@ p{
 	width: 5em;
 }
 
-footer a{
-
-}
 
 .photonaz2 {
 	width: 25%;
 	float: left;
 }
+
+.contact {
+		right: 12em;
+		padding-top: 1em;
+	}
 		
 	
 }
