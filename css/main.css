@@ -22,15 +22,15 @@ html{
 
 
 
-h1{
-	margin-top: 0;
-	color: black;
+.title{
+	color: blue;
 	font-family:'Antic';
 	font-weight: bold;
-	font-size: 3rem;
 	text-align: left;
-	bottom: 5%;
-	padding-top: 3rem;
+	font-size: 2.80em;
+	left: 2em;
+
+	
 	
 }
 .photonaz {
@@ -52,15 +52,14 @@ a{
 }
 
 a img{
-	margin: 0.5em;
+	padding:  0.125em 0.5em;
+	margin: 0 37.5%;
+	width: 5em;
 
 }
 
 footer a{
 	display: block;
-	width: 30%;
-	margin: 0 auto;
-
 }
 
 @media only screen and (min-width: 25em){
@@ -73,11 +72,11 @@ footer a{
 		font-family:'Antic';
 		font-weight: bold;
 		text-align: center;
-		padding: 0;
+		padding-top: 3em;
 	}
 	p{
-		width:70%;
-		top: 10em;
+		width:15em;
+		top: 20em;
 		display: inline;
 		padding-top: 5rem;
 	}
@@ -87,8 +86,7 @@ footer a{
 	}
 	footer a{
 	display: inline-block;
-	width:20%;
-	left: 55rem;
+
 	}
 }
 
@@ -97,30 +95,37 @@ footer a{
 	
 h1{
 	color: green;
-	font-size: 5rem;
+	font-size: 7rem;
+	padding-top: 30%;
+}
+
+p{
+	width: 5em;
 }
 
 footer a{
 
 }
-		
-	}
+
+.photonaz {
+	width: 25%;
+	float: left;
+
 }
-@media only screen and (min-width: 65em){
+		
+	
+}
+@media only screen and (min-width: 64em){
 	
 	h1{
-		color: blue;
 		font-size: 5rem;
 		width:70%;
 		top: 3.5em;
 		right: 0;
 	}
 	p{
-		position: absolute;
-		float: left;
-	
+		
 	}
-
 
 footer a{
 	
