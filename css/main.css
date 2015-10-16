@@ -20,21 +20,17 @@ html{
 	box-sizing: inherit;
 }
 
-
-
 .title{
-	color: blue;
-	font-family:'Antic';
+	color: red;
+	font-family:'italiana';
 	font-weight: bold;
 	text-align: left;
 	font-size: 2.80em;
 	left: 2em;
-
-	
 	
 }
-.photonaz {
-	width: 25%;
+.photonaz2 {
+	width: 33%;
 	float: left;
 
 }
@@ -91,7 +87,6 @@ footer a{
 	}
 }
 
-
 @media only screen and (min-width: 50em){
 	
 h1{
@@ -111,7 +106,6 @@ footer a{
 .photonaz2 {
 	width: 25%;
 	float: left;
-
 }
 		
 	
@@ -124,9 +118,7 @@ footer a{
 		top: 3.5em;
 		right: 0;
 	}
-	p{
-		
-	}
+	
 
 footer a{
 	
